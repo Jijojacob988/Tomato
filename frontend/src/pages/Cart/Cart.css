@@ -83,3 +83,12 @@
     color: white;
     border-radius: 4px;
 }
+
+@media (max-width:750px) {
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content: start;
+    }
+}
